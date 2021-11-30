@@ -98,13 +98,14 @@ SSH into the control node and follow the steps below:
 
 - *To modify the playbook* 
     
-     *nano elk-playbook* *To modify playbook* 
+     *nano elk-playbook*
 
-- *To install elk in the previous designated Virtual Machine on the hosts file*
+- *To install elk in the Virtual Machine specified inside the hosts file*
     
      *ansible-playbook elk-playbook*
 
 - *To check elk installation is working as expected"
     
-     *ssh azadmin@10.1.0.4*
+    *ssh azadmin@10.1.0.4*
+
     *docker ps*
